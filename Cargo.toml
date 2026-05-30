@@ -1,0 +1,12 @@
+[package]
+name = "lau-input"
+version = "0.1.0"
+edition = "2021"
+description = "Low-level input handling — action mapping, gesture recognition, voice command detection"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1.0.150"
